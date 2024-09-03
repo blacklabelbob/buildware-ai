@@ -9,6 +9,7 @@ import {
   SelectProject,
   projectsTable
 } from "../schema/projects-schema"
+import { issuesTable } from "../schema/issues-schema" // Ensure this import is correct
 
 export async function createProject(
   data: Omit<InsertProject, "userId">
